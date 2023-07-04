@@ -28,7 +28,7 @@ class _MyCurrencyappState extends State<MyCurrencyapp> {
       appBar: AppBar(
         title: const Text("Currency Converter"),
         centerTitle: true,
-        backgroundColor: Colors.teal,
+        backgroundColor: Colors.green,
         actions: [
           const SizedBox(
             width: 40,
@@ -57,7 +57,7 @@ class _MyCurrencyappState extends State<MyCurrencyapp> {
                   BoxShadow(spreadRadius: 1, blurRadius: 5, color: Colors.grey)
                 ],
                 borderRadius: BorderRadius.circular(10),
-                color: Colors.teal,
+                color: Colors.green,
               ),
               child: const Text(
                 "Select Country",
@@ -82,7 +82,7 @@ class _MyCurrencyappState extends State<MyCurrencyapp> {
                         style: const TextStyle(
                             fontSize: 18,
                             fontWeight: FontWeight.bold,
-                            color: Colors.teal),
+                            color: Colors.green),
                       ),
                       items: Currency.Currencydata.map((e) => DropdownMenuItem(
                           onTap: () {
@@ -111,7 +111,7 @@ class _MyCurrencyappState extends State<MyCurrencyapp> {
                         style: const TextStyle(
                             fontSize: 18,
                             fontWeight: FontWeight.bold,
-                            color: Colors.teal),
+                            color: Colors.green),
                       ),
                       items: Currency.Currencydata.map((e) => DropdownMenuItem(
                           onTap: () {
@@ -139,11 +139,11 @@ class _MyCurrencyappState extends State<MyCurrencyapp> {
               cursorColor: Colors.teal,
               decoration: const InputDecoration(
                   enabledBorder: OutlineInputBorder(
-                      borderSide: BorderSide(color: Colors.teal, width: 1.5)),
+                      borderSide: BorderSide(color: Colors.green, width: 1.5)),
                   border: OutlineInputBorder(
                       borderSide: BorderSide(color: Colors.black, width: 5)),
                   focusedBorder: OutlineInputBorder(
-                      borderSide: BorderSide(color: Colors.teal, width: 2)),
+                      borderSide: BorderSide(color: Colors.green, width: 2)),
                   hintText: "₹ Amount",
                   hintStyle: TextStyle(color: Colors.grey)),
             ),
@@ -156,12 +156,12 @@ class _MyCurrencyappState extends State<MyCurrencyapp> {
               children: [
                 Text(
                   "${from}",
-                  style: TextStyle(color: Colors.teal.shade400, fontSize: 15),
+                  style: TextStyle(color: Colors.green.shade400, fontSize: 15),
                 ),
                 const Icon(Icons.arrow_right_alt),
                 Text(
                   " ${To}",
-                  style: TextStyle(color: Colors.teal.shade400, fontSize: 15),
+                  style: TextStyle(color: Colors.green.shade400, fontSize: 15),
                 ),
               ],
             ),
@@ -189,7 +189,7 @@ class _MyCurrencyappState extends State<MyCurrencyapp> {
                                 fontWeight: FontWeight.bold,
                                 fontSize: 20,
                                 letterSpacing: 2,
-                                color: Colors.teal),
+                                color: Colors.green),
                           ),
                           TextSpan(
                             text: "${p!['new_amount']} ",
@@ -197,7 +197,7 @@ class _MyCurrencyappState extends State<MyCurrencyapp> {
                                 fontWeight: FontWeight.bold,
                                 fontSize: 20,
                                 letterSpacing: 3,
-                                color: Colors.teal),
+                                color: Colors.green),
                           ),
                           TextSpan(
                             text: "${To}",
@@ -218,7 +218,7 @@ class _MyCurrencyappState extends State<MyCurrencyapp> {
                       height: 50,
                       width: 200,
                       decoration: BoxDecoration(
-                          color: Colors.teal,
+                          color: Colors.green,
                           borderRadius: BorderRadius.circular(25)),
                       child: const Text(
                         "Convert",
