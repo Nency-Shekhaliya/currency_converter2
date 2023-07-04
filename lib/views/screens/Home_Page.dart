@@ -18,10 +18,7 @@ class _MyCurrencyappState extends State<MyCurrencyapp> {
   String amount = "amount";
   String hintf = "From";
   String hintt = "To";
-  int from1 = 0;
-  int To1 = 0;
 
-  String amount1 = '0';
   GlobalKey<FormState> formkey = GlobalKey<FormState>();
   TextEditingController controller = TextEditingController();
 
